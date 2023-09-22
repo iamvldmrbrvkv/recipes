@@ -14,11 +14,12 @@ export const AllRecipes = (props) => {
   const onFirstRender = () => {
     dispatch(loadData());
   }
-  useEffect(onFirstRender, [])
+
+  useEffect(onFirstRender, []);
   
   const onAddRecipeHandler = (recipe) => {
     dispatch(addRecipe(recipe));
-  };
+  }
 
   return (
     <div className="recipes-container">
@@ -33,5 +34,5 @@ export const AllRecipes = (props) => {
         </Recipe>
       ))}
     </div>
-  )
+  );
 }

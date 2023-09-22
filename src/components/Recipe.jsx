@@ -9,5 +9,5 @@ export default function Recipe({ recipe, children }) {
       </span>
       {children}
     </div>
-  )
+  );
 }

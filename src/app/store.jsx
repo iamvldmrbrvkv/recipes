@@ -7,4 +7,4 @@ export const store = createStore(combineReducers({
   favoriteRecipes: favoriteRecipesReducer,
   searchTerm: searchTermReducer,
   allRecipes: allRecipesReducer
-}))
+}));

@@ -36,5 +36,5 @@ export const SearchTerm = (props) => {
         </button>
       )}
     </div>
-  )
+  );
 }

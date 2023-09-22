@@ -33,6 +33,6 @@ export const FavoriteRecipes = (props) => {
           Remove Favorite
         </FavoriteButton>
       </Recipe>
-    )
+    );
   }
 }

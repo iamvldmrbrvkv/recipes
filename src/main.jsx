@@ -9,7 +9,7 @@ const render = () => {
     <React.StrictMode>
       <App state={store.getState()} dispatch={store.dispatch} />
     </React.StrictMode>
-  )
+  );
 }
 
 store.subscribe(render);

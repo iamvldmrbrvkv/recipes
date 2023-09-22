@@ -38,7 +38,7 @@ export function App(props) {
         </section>
       </div>
     </>
-  )
+  );
 }
 
 /* Utility Helpers */
