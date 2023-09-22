@@ -11,5 +11,7 @@ const render = () => {
     </React.StrictMode>
   )
 }
+
 store.subscribe(render);
+
 render();

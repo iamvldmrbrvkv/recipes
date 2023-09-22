@@ -1,4 +1,4 @@
-const initialState = ''
+const initialState = '';
 
 export const searchTermReducer = (state = initialState, action) => {
   switch (action.type) {

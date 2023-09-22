@@ -1,4 +1,5 @@
 const initialState = [];
+
 export const favoriteRecipesReducer = (favoriteRecipes = initialState, action) => {
   switch (action.type) {
     case 'favoriteRecipes/addRecipe':
